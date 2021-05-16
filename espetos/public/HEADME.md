@@ -1,1 +1,0 @@
-App ligado ao git e github.

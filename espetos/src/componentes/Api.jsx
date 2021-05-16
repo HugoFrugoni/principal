@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
+import Minimo from '../componentes/Com__minimo/Minimo'
+import Pai from '../componentes/Pai'
 
 const caminho = 'http://localhost:3001/dias'
 
@@ -29,6 +31,10 @@ export default class Api extends Component {
              </header>
              <label htmlFor="dias">Dias: </label>
              <select id="dias" >{this.renderOption()}</select>
+             <Minimo>
+                 meu componente
+             </Minimo>
+             <Pai> </Pai>
          </div>
         )
     }

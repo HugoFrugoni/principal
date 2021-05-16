@@ -3,7 +3,6 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
   } from "react-router-dom";
   import Loja1 from './Loja1'
   import App from '../App'
@@ -11,7 +10,7 @@ import {
 const Rota = () => {
     return(
         <Router>
-            <Switch>
+            <Switch >
             <Route path="/loja1"  component={Loja1} />
                 <Route path="/" component={App} />
             </Switch>

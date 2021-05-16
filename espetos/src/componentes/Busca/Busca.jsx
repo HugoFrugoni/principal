@@ -1,12 +1,19 @@
 import React from 'react'
 import '../Busca/Busca.css'
 
-const Busca = () => {
+const Busca = (props) => {
+   
     return(
         <div className='titulo'>
             <span>Busca: </span>
-            <input type='search'/>
+            <input 
+            type='search'
+           
+            onChange = {(ev)=>{
+                props.quandoPesquisar(ev.target.value)
+            }}
+            />
         </div>
     )
 }
-export default Busca
+export default Busca;
