@@ -2,12 +2,25 @@
     max-width: 800px;
     margin: 30px auto;
 }
-.Loja_header{
+.loja_header{
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
-.Loja_link{
+.loja_link{
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 3px 5px;
+    box-shadow: 0px 2px 2px 0px rgb(0, 0, 0,0.15);
+}
+.loja_busca{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    
+}
+.link2{
     text-decoration: none;
     border: 1px solid #000;
     border-radius: 50px;
