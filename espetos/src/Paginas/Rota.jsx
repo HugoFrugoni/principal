@@ -4,17 +4,13 @@ import {
     Switch,
     Route,
   } from "react-router-dom";
-  import Loja1 from './Loja1'
-  import App from '../App'
-  import Form from '../componentes/Form/Form'
+  import Principal from '../Paginas/Principal'
 
 const Rota = () => {
     return(
         <Router>
             <Switch >
-                <Route path="/loja1"  component={Loja1} />
-                <Route path="/cadastro" component={Form} />
-                <Route path="/" component={App} />
+                <Route path="/" component={Principal} />
             </Switch>
         </Router>
     )
